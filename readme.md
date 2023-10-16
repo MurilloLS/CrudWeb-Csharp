@@ -25,6 +25,8 @@
 
 💽 **MySQL**: O banco de dados que armazena os dados.
 
+📚 **ASP.NET MVC**: O suporte princial deste projeto.
+
 🏗️ **Entity Framework**: Para interagir com o banco de dados.
 
 🎨 **Bootstrap 5**: Para dar uma aparência mais profissional à interface.
