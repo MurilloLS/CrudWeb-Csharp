@@ -25,7 +25,7 @@
 
 💽 **MySQL**: O banco de dados que armazena os dados.
 
-📚 **ASP.NET Core MVC**: O suporte princial deste projeto.
+📚 **ASP.NET MVC**: O suporte princial deste projeto.
 
 🏗️ **Entity Framework**: Para interagir com o banco de dados.
 
