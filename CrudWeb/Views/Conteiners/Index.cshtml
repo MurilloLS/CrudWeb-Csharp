@@ -1,0 +1,59 @@
+﻿@model IEnumerable<CrudWeb.Models.Conteiner>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Conteinêrs</h1>
+
+<p>
+    <a role="button" class="btn btn-primary" asp-action="Create">Novo</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Cliente)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Numero)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Tipo)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Status)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Categoria)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Cliente)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Numero)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Tipo)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Status)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Categoria)
+            </td>
+            <td>
+                <a role="button" class="btn btn-primary" asp-action="Edit" asp-route-id="@item.Id">Editar</a> 
+                <a role="button" class="btn btn-secondary" asp-action="Details" asp-route-id="@item.Id">Detalhes</a> 
+                <a role="button" class="btn btn-danger" asp-action="Delete" asp-route-id="@item.Id">Apagar</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
