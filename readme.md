@@ -3,7 +3,6 @@
     <br/>Projeto CRUD - Gerenciando Contêineres com C# e MySql🚢
 </h1>
  
----------------------------------------------------------------
 <h1 align="center">
     <img src="1.png">
 </h1>
@@ -11,8 +10,6 @@
 <h1 align="center">
     <img src="2.png">
 </h1>
-
----
 
 ## 🚀Sobre o Projeto:
 
@@ -35,7 +32,7 @@
 
 ## 🔧Como Utilizar:
 
-🛠️ **Clonar e Rodar:** Basta clonar o repositório, configurar seu ambiente e executar o projeto no Visual Studio Community.
+🛠️ **Clonar e Rodar:** Basta clonar o repositório, usando <code>git clone</code>, configurar seu ambiente e executar o projeto no Visual Studio Community.
 
 📝 Cadastro de Contêineres: Registre e gerencie contêineres facilmente.
 
